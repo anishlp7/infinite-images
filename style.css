@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Montez, sans-serif;
+  background: whitesmoke;
+}
+
+h1{
+  margin: 20px 0 0 40px;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+/* Loader */
+
+.loader{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(255,255,255,0.8);
+}
+
+.loader img{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Image Container */
+.image-container{
+  margin: 10px 10px 10px 30px;
+}
+
+.image-container img {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 719px;
+  height: 500px;
+}
+
+/* Media Queries */
+@media screen and (max-width:600px) {
+  h1{
+    font-size: 25px;
+  }
+
+}
+
+@media screen and (max-width:1440px){
+  .image-container img{
+    width: 643px !important;
+  }
+}
+
+
+@media only screen and (max-width:1280px){
+  .image-container img{
+    width: 591px !important;
+  }
+}
+
+
+
+
+
